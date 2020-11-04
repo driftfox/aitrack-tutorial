@@ -98,6 +98,24 @@ Ok, after everything is configured, you should be able to click the Start button
 
 Check out the recommended settings below for a few more tips.
 
+# Configuring Flight Simulators
+
+### XPlane 11
+
+1. Open X-Plane 11
+2. Click the "Settings" button the on main screen.
+3. Under the "Graphics" tab, click the checkbox at the bottom labeled "Enable TrackIR and TrackHat view tracking in 3-D cockpit"
+
+![XPlane](/images/xplane-settings.png)
+
+You should now be able to move your head in XPlane. See the [recommended settings](#recommended-settings) below for some useful tips.
+
+### Microsoft Flight Simulator
+
+No settings need to be enabled; headtracking is enabled by default in Microsoft Flight Simulator.
+
+See the [recommended settings](#recommended-settings) below for some useful tips.
+
 # Recommended Settings
 
 Here are just a couple more settings I strongly recommend to make your experience that much better when using head tracking.
