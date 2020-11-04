@@ -11,7 +11,7 @@
 
 AITrack and Opentrack are both free, open source tools you can use to start using head-tracking in your flight simulators. All you need is a webcam or a smart phone connected to your PC. In this tutorial, I'll try to simplify the setup process and provide some recommended settings for improving your overall experience with AITrack and Opentrack.
 
-You'll need both AITrack and Opentrack to get started, and here' why:
+You'll need both AITrack and Opentrack to get started, and here's why:
 1. AITrack takes your webcam feed and intelligently tracks your face (using AI), mapping it to what I'll call "movement data"
 2. Opentrack takes this "movement data" and converts it to a useful protocol (called Freetrack) that your flight sims understand
 
