@@ -85,7 +85,7 @@ These mappings are **very user specific**. I sit 6 feet in front of a large tele
 
 Take a look at this video: [Tweaking your curves in Opentrack](https://www.youtube.com/watch?v=u0TBI7SoGkc), which explains the process pretty well. As a final recommendation, try to add a deadzone near 0 on every axis in order to have a comfortable neutral head position.
 
-Again, I recommend changing the curves to something you're happy with, but here are mine for reference (NOTE: I have changed the "Max input" dropdown on some):
+Again, I recommend changing the curves to something you're happy with, but here are mine for reference:
 
 ![Opentrack](/images/opentrack-yaw.png)
 
