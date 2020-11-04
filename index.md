@@ -9,11 +9,11 @@
 
 # Introduction
 
-AITrack and Opentrack are both free, open source tools you can use to start using head-tracking in your flight simulators. All you need is a webcam or a smart phone connected to your PC. In this tutorial, I'll try to simplify the setup process and provide some recommended settings for improving your overall experience with AITrack and Opentrack experience.
+AITrack and Opentrack are both free, open source tools you can use to start using head-tracking in your flight simulators. All you need is a webcam or a smart phone connected to your PC. In this tutorial, I'll try to simplify the setup process and provide some recommended settings for improving your overall experience with AITrack and Opentrack.
 
 You'll need both AITrack and Opentrack to get started, and here' why:
 1. AITrack takes your webcam feed and intelligently tracks your face (using AI), mapping it to what I'll call "movement data"
-2. Opentrack takes this "movement data" and converts it to a useful protocol that your flight sims understand
+2. Opentrack takes this "movement data" and converts it to a useful protocol (called Freetrack) that your flight sims understand
 
 Most of these steps are covered on (and some text even copied verbatim from) the [AITrack User Guide](https://github.com/AIRLegend/aitrack/wiki/User-guide), but I've included some additional screenshots and explanations along the way.
 
@@ -81,17 +81,22 @@ Your settings should now look something like this:
 
 The last thing we're going to take a look at are the Opentrack "curves". They represent the mapping between how much you move your head in the real life and how much the view is moved in game. You can configure them by clicking "Mapping" in Opentrack.
 
-These mappings are **very user specific**. I sit 6 feet in front of a 65" television, but you might be using a completely different configuration. I will provide a screenshot of all my mappings, but please realize **it's very possible you'll need to tweak these to get them just right for you and your setup**.
+These mappings are **very user specific**. I sit 6 feet in front of a large television, but you might be using a completely different configuration. I will provide a screenshot of all my mappings, but please realize **it's very possible you'll need to tweak these to get them just right for you and your setup**.
 
 Take a look at this video: [Tweaking your curves in Opentrack](https://www.youtube.com/watch?v=u0TBI7SoGkc), which explains the process pretty well. As a final recommendation, try to add a deadzone near 0 on every axis in order to have a comfortable neutral head position.
 
-Again, I recommend changing the curves to something you're happy with, but here are mine (NOTE: I have changed the "Max input" dropdown on some):
+Again, I recommend changing the curves to something you're happy with, but here are mine for reference (NOTE: I have changed the "Max input" dropdown on some):
 
 ![Opentrack](/images/opentrack-yaw.png)
+
 ![Opentrack](/images/opentrack-pitch.png)
+
 ![Opentrack](/images/opentrack-roll.png)
+
 ![Opentrack](/images/opentrack-x.png)
+
 ![Opentrack](/images/opentrack-y.png)
+
 ![Opentrack](/images/opentrack-z.png)
 
 Ok, after everything is configured, you should be able to click the Start button and see the pink octupus moving around (NOTE: AITrack must also be running in the background at the same time).
