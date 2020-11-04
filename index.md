@@ -149,4 +149,4 @@ Now anytime you're flying and want to lock the camera in it's current position, 
 
 # Troubleshooting
 
-This space left open to add any tips and suggestions.
+See the [FAQ & Troubleshooting page on AITrack's wiki](https://github.com/AIRLegend/aitrack/wiki/FAQ-&-Troubleshooting).
